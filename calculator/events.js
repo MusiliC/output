@@ -1,6 +1,6 @@
 function sayHello(){
-	var a = document.getElementByid('number')
-	document.getElementByid('hello').innerHTML = a;
+	let a = document.getElementById('number').value
+	document.getElementById('hello').innerText = a;
 
 			//alert ("hello word")
 		}
